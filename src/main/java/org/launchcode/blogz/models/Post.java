@@ -93,5 +93,10 @@ public class Post extends AbstractEntity {
 	private void updated() {
 		this.modified = new Date();
 	}
+
+	public static String getUsername() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 	
 }
